@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Feedback">Feedback</a></li>
+                <li><a href="#" class="btn">Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Saroj kumar mahato</span></h1>
+            <h3>A <span class="highlight">Creative Designer</span> From <span class="highlight">Nepal</span></h3>
+            <p>I'm a creative designer from Nepal, and I'm very passionate and dedicated to my work.</p>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+        <img src="profile.png" alt="Profile-img" class="profile-img">
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <h3>Pixel Perfect</h3>
+            <p>
+                Pixel Perfect ensures every design element is precisely aligned, maintaining consistent spacing,
+                sharp details, and accurately replicating the mockup.
+            </p>
+        </div>
+        <div class="feature-item">
+            <h3>High Quality</h3>
+            <p>High Quality ensures exceptional design standards with clean code, responsive layouts, optimized performance,
+                 and visually appealing elements for a seamless user experience.
+                </p>
+        </div>
+        <div class="feature-item">
+            <h3>Awesome Idea</h3>
+            <p>Awesome Idea brings creativity and innovation to web design,
+                 combining unique concepts with modern techniques to create visually captivating and functional layouts.
+                  It emphasizes originality, strategic thinking, and user-centered design to deliver solutions that stand out, 
+                  engage audiences, and meet business goals effectively. Every idea is tailored to inspire success.
+                </p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="stats">
+            <h3>0</h3>
+            <p>Years of Success</p>
+            <h3>1</h3>
+            <p>Total Projects</p>
+        </div>
+        <div class="about-text">
+            <h2>I Can Design Anything You Want</h2>
+            <p>Hello there! I'm a web designer, and I'm very passionate and dedicated to my work. 
+                With 1 years of experience as a professional web developer, 
+                I have acquired the skills and knowledge to make your project a success.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Amazing Works</h2>
+        <p>To Develop amazing Design of portfolio website.
+           I am also expert to find problem in website and its solution. </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mr:Skm thunderstrike portfolio!!</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    <script>
+        document.addEventListener('keydown', event => {
+            if (
+                event.ctrlKey && 
+                (event.key === 'u' || event.key === 'U') || // Ctrl+U
+                event.key === 'F12' || // F12
+                (event.ctrlKey && event.shiftKey && event.key === 'I') // Ctrl+Shift+I
+            ) {
+                event.preventDefault();
+                alert("Viewing the source code is disabled!");
+            }
+        });
+    </script>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+
+</body>
+</html>
